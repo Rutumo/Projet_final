@@ -1,0 +1,176 @@
+@media screen and (max-width: 800px){
+
+	.fond_m{
+		background: blue;
+	}
+	#lien{
+		position: fixed;
+		top: 40px;
+		left: 0px;
+		right: 0px;
+	}
+	.menu0{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 60px;
+	}
+	.p_img0{
+		top: 15px;
+	}
+	.group_btn{
+		padding-top: 0px;
+	}
+	.body{
+		background: RGB(241, 242, 244);
+		border-radius: 5px;
+		padding: 5px;
+		margin: 0px 10%;
+	}
+	.body0{
+		margin: 40px 0px 0px 0%;
+	}
+	.body1{
+		margin: 40px 2% 0px 2%;
+	}
+	.form{
+		width: 100%;
+		margin-left: 0%;
+	}
+	.ipt_nav{
+        height: 38px;
+        font-size: 16px;
+    }
+    .user_nav{
+        height: 45px;
+        width: 45px;
+		border: solid;
+        margin-top: 2px;
+    }
+	.p_user{
+		right: 50px;
+	}
+	.user_option{
+		top: 60px;
+	}
+    .i_nav{
+        top: 6px;
+    }
+	.btn_nav{
+		width: 50px;
+		height: 35px;
+		border-radius: 5px;
+	}
+	.btn_nav:hover{
+		border: 2px solid gray;
+	}
+	.text{
+		font-size: 24px;
+		font-weight: bold;
+	}
+	.ouf{
+		border: 1px solid red;
+		color: red;
+		border-radius: 5px;
+		text-align: center;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 0px;
+		height: 20px;
+		padding: 5px 0px;
+	}
+	.btn_menu0{
+		float: none;
+		background: RGB(241, 242, 244);
+		width: 100%;
+		padding: 3px 0px;
+	}
+	.a_menu0{
+		text-decoration: none;
+		color: green;
+		font-size: 20px;
+		padding: 0px;
+		padding: 3px 100% 3px 20px;
+		border-radius: 0px;
+		font-weight: bold;
+		width: 100%;
+		border-top: 1px solid black;
+	}
+	/*
+	.href_active{
+		border-bottom: 0px solid RGB(76, 250, 0);
+		border-left: 5px solid RGB(76, 250, 0);
+		border-right: 0px solid RGB(76, 250, 0);
+	}
+	*/
+	.a_menu0:hover, .href_active{
+		background: white;
+	}
+	.logo_menu{
+		height: 60px;
+		top: 0px;
+		left: 0px;
+	}
+	
+	.logo{
+		width: 60px;
+		height: 50px;
+		/*border-radius: 5px;*/
+	}
+	.img_menu{
+		width: 50px;
+		height: 50px;
+		border-radius: 100%;
+	}
+	.img_body{
+		height: 400px;
+	}
+	.a_affiche{
+		margin: 1px 25%;
+		font-size: 18px;
+		display: block;
+	}
+	.h1_body{
+		padding-top: 40px;
+		font-size: 35px;
+	}
+	.h2_body{
+		font-size: 16px;
+		padding-bottom: 0px;
+	}
+	.h3_body{
+		font-size: 15px;
+	}
+	.var_post{
+		width: 20%;
+		margin: 0px 5%;
+	}
+	.h1{
+		font-size: 18px;
+	}
+	.h2{
+		font-size: 15px;
+	}
+	.txt1{
+		font-size: 20px;
+	}
+	.txt2{
+		font-size: 18px;
+	}
+	.txt3{
+		font-size: 16px;
+	}
+	.img_accueil{
+		width: 100px;
+		height: 100px;
+	}
+	.fleche{
+		padding: 30px 15px;
+		margin-top: 5px;
+	}
+	.btn_sup{
+		right: 10px;
+		padding: 10px 15px;
+	}
+}

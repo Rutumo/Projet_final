@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" th:href="@{/css/style.css}">
+        <link rel="stylesheet" th:href="@{/icons/bootstrap-icons.css}">
+        <title>Iot</title>
+    </head>
+
+    <body>
+        
+        <header class='menu0 fond dessus' id='barre'>
+
+            <div class='f_gauche f_null_m '>
+                <h2><a href="" class="txt_noir n_souligne pad_l5">Nom</a></h2>
+            </div>
+
+            <div class='p_img0 invisible visible_m ' id='btn_menu'>
+                <i class="bi-list rond txt_noir bold pad border " style="font-size:30px"></i>
+            </div>
+
+            <div class='invisible_m marg_t1 marg_t_m sauter_l1 sauter_l_m largeur_m' id='lien'>
+                <ul class='group_btn f_gauche f_null_m '>
+                    <li class='btn_menu0'>
+                        <a href="/" class="a_menu0"><i class="bi-house-fill invisible_m"></i> Accueil</a>
+                    </li>
+                    <li class='btn_menu0'>
+                        <a href="/" class="a_menu0"><i class="bi-thermometer-sun invisible_m"></i>Température</a>
+                    </li>
+                    <li class='btn_menu0'>
+                        <a href="/b" class="a_menu0"><i class="bi-sun-fill invisible_m"></i>Luminosité</a>
+                    </li>
+                </ul>
+            </div>
+
+            
+        </header>
+
+        <div class='body1' id='body'>
+            <h1>Affichage</h1>
+        </div>
+
+        <footer class="pied pad1">
+            <p class=''>
+                <a href='/' class=" marg5 n_souligne txt_noir">Accueil</a>
+                <a href="" class=" marg5 n_souligne txt_noir">Température</a>
+                <a href="" class=" marg5 n_souligne txt_noir">Luminosité</a>
+            </p>
+            <p>© Iot</p>
+        </footer>
+
+        <script th:src="@{/js/style.js}"></script>
+    </body>
+</html>

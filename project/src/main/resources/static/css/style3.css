@@ -1,0 +1,30 @@
+@media screen and (max-width: 450px){
+
+	.fond_p{
+		background: yellow;
+	}
+
+	.body{
+		background: RGB(241, 242, 244);
+		border-radius: 5px;
+		padding: 5px;
+		margin: 0px 0%;
+	}
+	/* .body1{ */
+		/* margin: 65px 2% 0px 0%; */
+	/* } */
+	.text{
+		font-size: 24px;
+		font-weight: bold;
+	}
+	.a_affiche{
+		margin: 1px 15%;
+		font-size: 16px;
+		display: block;
+	}
+	.var_post{
+		width: 30%;
+		margin: 0px 0%;
+	}
+
+}
