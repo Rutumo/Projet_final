@@ -16,7 +16,7 @@ int temoinV=0;
 SoftwareSerial NodeMCU(D2,D3);
 
 //information de connnexion au serveur mqtt
-const char* mqtt_server = "192.168.1.167";       // MQTT Server IP Address
+const char* mqtt_server = "192.168.x.x";       // MQTT Server IP Address
 const char* user = "eliot";
 const char* password = "eliot";
 const char* clientID = "noeud1";     // The client id identifies the NodeMCU device.
